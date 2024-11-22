@@ -1,0 +1,9 @@
+backupper (1.0-2) UNRELEASED; urgency=low
+
+  [ Luca Ferrari ]
+  * backupper: Initial debian packaging
+
+  [ aragost ]
+  * Aggiunta l'installazione del  man page
+
+ -- aragost <aragost@aragost>  Fri, 22 Nov 2024 12:06:08 +0100
