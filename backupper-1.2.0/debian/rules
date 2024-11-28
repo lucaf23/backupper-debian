@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with python-virtualenv  --python /usr/bin/python3.12
+
+override_dh_auto_build: backup.1
+	dh_auto_build
+
+override_dh_virtualenv:
+	dh_virtualenv --python /usr/bin/python3.12
+clean:
+	dh_clean

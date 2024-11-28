@@ -1,0 +1,13 @@
+backupper (1.2.0) UNRELEASED; urgency=low
+
+  [ Luca Ferrari ]
+  * backupper: Initial debian packaging
+
+  [ Luca Ferrari ]
+  * Aggiunta l'installazione del  man page
+  
+  [ Luca Ferrari ]
+  * Aggiunta README.md e descrizione in setup.py
+  *	 
+
+ -- aragost <aragost@aragost.fritz.box>  Thu, 28 Nov 2024 17:57:02 +0100

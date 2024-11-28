@@ -1,6 +1,0 @@
-backupper.*.debhelper
-backupper.substvars
-backupper/
-backupper-*/
-files
-debhelper-build-stamp

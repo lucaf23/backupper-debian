@@ -1,0 +1,20 @@
+Source: backupper
+Section: python
+Priority: extra
+Maintainer: Luca Ferrari <luca10.ferrari@edu.unife.it>
+Build-Depends: debhelper (>= 11), python3, python3-venv, python3-dev, dh-virtualenv (>= 1.1), tar
+Standards-Version: 4.6.0
+Homepage: https://github.com/lucaf23/bakupper
+
+Package: backupper
+Architecture: all
+Pre-Depends: dpkg (>= 1.16.1), python3, python3-venv, ${misc:Pre-Depends}
+Depends: ${python:Depends}, ${misc:Depends}
+Description: A Python package and its dependencies packaged up as DEB in an isolated virtualenv.
+    .
+    This is a distribution of "backupper" as a self-contained
+    Python virtualenv wrapped into a Debian package ("omnibus" package,
+    all passengers on board). The packaged virtualenv is kept in sync with
+    the host's interpreter automatically.
+    .
+    See https://github.com/spotify/dh-virtualenv for more details.

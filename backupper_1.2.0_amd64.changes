@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Thu, 28 Nov 2024 17:57:02 +0100
+Source: backupper
+Binary: backupper
+Built-For-Profiles: noudeb
+Architecture: all
+Version: 1.2.0
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: Luca Ferrari <luca10.ferrari@edu.unife.it>
+Changed-By: aragost <aragost@aragost.fritz.box>
+Description:
+ backupper  - A Python package and its dependencies packaged up as DEB in an is
+Changes:
+ backupper (1.2.0) UNRELEASED; urgency=low
+ .
+   [ Luca Ferrari ]
+   * backupper: Initial debian packaging
+ .
+   [ Luca Ferrari ]
+   * Aggiunta l'installazione del  man page
+ .
+   [ Luca Ferrari ]
+   * Aggiunta README.md e descrizione in setup.py
+   *
+Checksums-Sha1:
+ 9fd3a8ea9b4c315cabfbdbe7df734894de593d04 4644584 backupper_1.2.0_all.deb
+ 7c981ab89950a18a22df3e198459b1750f19393e 7287 backupper_1.2.0_amd64.buildinfo
+Checksums-Sha256:
+ c9b65c1106b757ccc4b2a980aaa3306c886443e5bd7b60208b3a2672fedfbea8 4644584 backupper_1.2.0_all.deb
+ 6b2a4de716a622c106a7c8933a38776f6a0209c3eb9aaacef281f55c930fdb45 7287 backupper_1.2.0_amd64.buildinfo
+Files:
+ 1b8416fe7da81f58fd10b79bf29790e2 4644584 python extra backupper_1.2.0_all.deb
+ a3d9be278de871062dda04ab1c60a7d5 7287 python extra backupper_1.2.0_amd64.buildinfo
